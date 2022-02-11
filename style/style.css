@@ -1,0 +1,89 @@
+body {background-color:  rgba(0, 95, 107); ;}
+
+p{ font-family: "Poppins", sans-serif; margin-bottom: 0!important;}
+
+/* navbar */
+a { text-decoration: none; }
+.group-buttons-with-Trofey p , .group-buttons-with-App p { text-transform: uppercase; padding: 5px 20px; line-height: 19px;}
+.navbar {position: fixed; width: 100%; background-color:#1B4046 ; z-index: 9999;}
+.near-nav { list-style: none; text-transform: uppercase;}
+.near-nav p {color: white;}
+.nav-item p { color: white; font-weight: 200;}
+
+.group-sign-in, .group-log-in {padding: 10px 20px; margin:5px;}
+.group-sign-in { background-color: #FF4949; border-radius: 15px;}
+.group-log-in {background-color:#2CB154; border-radius: 15px;}
+.group-log-in:hover {background-color:#006C43; transition: .5s;}
+.group-sign-in:hover{background-color: #FC0108; transition: .5s;}
+
+.desc-logo {margin-left: auto; margin-right: auto;}
+.desc-logo p {color:white; font-weight: 200; padding: 5px;}
+
+/* section-1 */
+.section-1 img { height: 410px; width: 100%; object-fit: cover;}
+.container-section-1 { background: rgba(0, 95, 107, 0.6); border-radius: 16px; position: absolute; width: 100%; height: 338px;  top: 241px; left: 50%; transform: translate(-50%, -50%); padding: 0px 100px;}
+.maintext h1{color: white; text-transform: uppercase; font-weight: 700; text-align: center; font-size: 62px; line-height: 120%;}
+.maintext {margin-top: 50px;}
+.second-container-section-1 {height: inherit; padding: 10px; border-radius: 20px; background-color:rgba(85, 189, 202, 0.6);}
+.third-container-section-1 {padding: 5% 40%;}
+.third-container-section-1 p {text-transform: uppercase; color: white; text-align: center;}
+.third-container-section-3 {padding: 5% 40% 0;}
+@media (max-width: 1200px) { .third-container-section-1{ padding: 0% 40%;}}
+@media (max-width: 992px) { .third-container-section-1 {padding: 0% 30% 0;} .maintext h1 {font-size: 60px;}}
+@media (max-width:768px ) { .container-section-1{padding: 0px 50px;} .maintext h1 {font-size: 46px;} .third-container-section-3 {padding: 0% 15% 0;} }
+@media (max-width: 400px) {.third-container-section-1 {padding: 0% 20%;} .third-container-section-3 {padding: 0% 0% 0;}}
+@media (max-width: 453px) {.maintext h1 {font-size: 36px;} }
+
+/* section-2 */
+
+.section-2 {background-color: #55BDCA; padding: 10px;}
+.little-car {background-color: #00B3B4;  border-radius: 16px 16px 16px 16px; margin: 20px 0px;}
+.little-car:hover, .backgrounds:hover {background-color: #FF4949; transition: .3s ease-in-out;}
+.img-little-car {display: flex; justify-content: center; padding: 16px 30px;}
+.white-pole {background-color: white; border-radius: 0px 0px 16px 16px;}
+.name-card {color: #00B3B4; text-transform: uppercase; font-family: "Roboto", sans-serif; font-weight: bold; text-align: center; padding: 10px}
+
+/* section-3 */
+
+.h1-Welcome h1{color: #FF4949; font-weight: bold; font-size: 52px; text-transform: uppercase; text-align: center;  margin: 20px 0px 30px 0px; }
+.p-Welcome-Bonus {color: white; text-align: center; font-weight: 200;}
+.bonus-of-the-month {margin: 30px; padding: 30px; background-color: #55BDCA; border-radius: 16px; text-transform: uppercase; color:white; font-weight: 200;}
+.head-bonus-of-the-month, .three-hundred-bucks {display: flex; justify-content: center;}
+.three-hundred-bucks h1 { text-align: center; font-size: 60px; line-height: 1.5; font-weight: bold;}
+.background {background-color: #00B3B4; padding: 40px; border-radius: 20px; margin: 10px;}
+.background:hover {scale: 1.1; transition: .5s;}
+.backgrounds {background-color: #00B3B4; border-radius: 20px; padding: 15px;}
+.background p{border: none;}
+.uplotnitel {padding: 10px;}
+.width {width: 70%;}
+.list li{color: white; line-height: 2.5; font-size: 20px; font-weight: 400;}
+.background-button p {color: white; font-weight: 100; text-align: center;}
+.list li:before { color:red; content: '+'; margin: 0px 10px; font-weight: bold;}
+ul {list-style: none;}
+.background-card {background-color: #1B4046; border-radius: 20px; margin: 10px }
+.background-card img {width: 100%; height: 250px; object-fit: scale-down; align-items: center;}
+.title-card h4 {text-align: center; color:#FF4949; font-weight: bold; text-transform: uppercase;} 
+.p-card {color: white; text-align: center; font-size: 20px; line-height: 1.6;}
+.info-card {margin: 10px;}
+.card-section-3 {color: white; text-align: center; font-size: 25px; font-weight: 200; text-transform: uppercase;}
+.coin img {width: 100%;}
+@media (max-width: 768px) {.three-hundred-bucks h1 {font-size: 40px;}}
+@media (max-width: 470px) {.three-hundred-bucks h1 {font-size: 30px;} .background{ padding: 5px;} .list li{font-size: 15px;} .col-6{padding: 0;} .uplotnitel {padding: 20px;}}
+
+
+/* section-4 */
+.section-4{ background-color:#55BDCA;}
+.h1-bet h1 {color: #00B3B4; font-weight: bold; font-size: 52px; text-transform: uppercase; text-align: center;  margin: 30px 0px 30px 0px; padding-top: 40px}
+.po p {color: white;} .po li{color: white;}
+.but {display: flex; justify-content: center; margin-top: 25px 0; padding: 25px 0;}
+.but p {color: white; text-transform: uppercase; text-align: center;} 
+.accordion-button:not(.collapsed) { color:white; background-color: transparent; border-radius: 20px;}
+.accordion-button {background-color: #55BDCA;color:white; border-radius: 20px;}
+.accordion-header {background-color: #00B3B4; border-radius: 20px;}
+.accordion-item{color: black; background-color: transparent; margin: 20px 0px; border-radius: 20px; border: 0px }
+.accordion-body{color:white}
+.accordion-header h3 {text-align: center;}
+
+/* footer */
+
+footer { color: white; padding: 50px 0px; margin-top: 70px; background-color: #1b4046 ;}
